@@ -1,0 +1,39 @@
+2021-03-28 04:19:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:19:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:19:43 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:19:43 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:20:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:20:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:20:43 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:20:43 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:21:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:21:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:21:43 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:21:43 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:22:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:22:13 [HikariPool-1 housekeeper] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [INFO ] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-28 04:22:19 [RMI TCP Connection(3)-127.0.0.1] [INFO ] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@614ca7df, started on Sun Mar 28 04:15:04 KST 2021
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerGracefulShutdown' completed its stop procedure
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483646
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.c.s.DefaultLifecycleProcessor - Bean 'webServerStartStop' completed its stop procedure
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2fdba363: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@654e5787: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63019b8c: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72df32d9: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@52347c44: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4551fbea: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a63d537: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21217358: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5086ed64: (connection evicted)
+2021-03-28 04:22:19 [HikariPool-1 connection closer] [DEBUG] com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ac2d235: (connection evicted)
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [DEBUG] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2021-03-28 04:22:19 [RMI TCP Connection(2)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
