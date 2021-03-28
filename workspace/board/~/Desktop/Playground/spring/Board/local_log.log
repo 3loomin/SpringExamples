@@ -1,71 +1,106 @@
-2021-03-28 04:15:04 [main] [INFO ] com.api.board.BoardApplication - Starting BoardApplication using Java 1.8.0_271 on changmins-MacBook-Pro.local with PID 2639 (/Users/cm/Desktop/Playground/Spring/Board/workspace/board/target/classes started by cm in /Users/cm/Desktop/Playground/Spring/Board/workspace/board)
-2021-03-28 04:15:04 [main] [INFO ] com.api.board.BoardApplication - The following profiles are active: local
-2021-03-28 04:15:04 [main] [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2021-03-28 04:15:04 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
-2021-03-28 04:15:04 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
-2021-03-28 04:15:04 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2021-03-28 04:15:04 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-03-28 04:15:04 [main] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-03-28 04:15:04 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms
-2021-03-28 04:15:05 [main] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-28 04:15:05 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
-2021-03-28 04:15:05 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
-2021-03-28 04:15:05 [main] [INFO ] com.api.board.BoardApplication - Started BoardApplication in 1.536 seconds (JVM running for 1.921)
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] c.a.board.controller.BoardController - ===== ===== ===== logging.level.com.api.board.controller - Logger Level ===== ===== =====
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [DEBUG] c.a.board.controller.BoardController - Logger Level - [DEBUG]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] c.a.board.controller.BoardController - Logger Level - [INFO]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [WARN ] c.a.board.controller.BoardController - Logger Level - [WARN]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [ERROR] c.a.board.controller.BoardController - Logger Level - [ERROR]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] c.a.board.controller.BoardController - ===== ===== ===== logging.level.com.api.board.controller - Logger Level ===== ===== =====
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] c.a.board.BoardService.BoardService - ===== ===== ===== logging.level.com.api.board - Logger Level ===== ===== =====
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] c.a.board.BoardService.BoardService - Logger Level - [INFO]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [WARN ] c.a.board.BoardService.BoardService - Logger Level - [WARN]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [ERROR] c.a.board.BoardService.BoardService - Logger Level - [ERROR]
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] c.a.board.BoardService.BoardService - ===== ===== ===== logging.level.com.api.board - Logger Level ===== ===== =====
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-03-28 04:15:43 [http-nio-8090-exec-1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-03-28 04:22:23 [main] [INFO ] com.api.board.BoardApplication - Starting BoardApplication using Java 1.8.0_271 on changmins-MacBook-Pro.local with PID 2693 (/Users/cm/Desktop/Playground/Spring/Board/workspace/board/target/classes started by cm in /Users/cm/Desktop/Playground/Spring/Board/workspace/board)
-2021-03-28 04:22:23 [main] [INFO ] com.api.board.BoardApplication - The following profiles are active: local
-2021-03-28 04:22:24 [main] [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2021-03-28 04:22:24 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
-2021-03-28 04:22:24 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
-2021-03-28 04:22:24 [main] [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2021-03-28 04:22:24 [main] [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
-2021-03-28 04:22:24 [main] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-03-28 04:22:24 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 706 ms
-2021-03-28 04:22:25 [main] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-03-28 04:22:25 [main] [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
-2021-03-28 04:22:25 [main] [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
-2021-03-28 04:22:25 [main] [INFO ] com.api.board.BoardApplication - Started BoardApplication in 1.578 seconds (JVM running for 1.97)
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] c.a.board.controller.BoardController - ===== ===== ===== logging.level.com.api.board.controller - Logger Level ===== ===== =====
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [DEBUG] c.a.board.controller.BoardController - Logger Level - [DEBUG]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] c.a.board.controller.BoardController - Logger Level - [INFO]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [WARN ] c.a.board.controller.BoardController - Logger Level - [WARN]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [ERROR] c.a.board.controller.BoardController - Logger Level - [ERROR]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] c.a.board.controller.BoardController - ===== ===== ===== logging.level.com.api.board.controller - Logger Level ===== ===== =====
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] c.a.board.BoardService.BoardService - ===== ===== ===== logging.level.com.api.board - Logger Level ===== ===== =====
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] c.a.board.BoardService.BoardService - Logger Level - [INFO]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [WARN ] c.a.board.BoardService.BoardService - Logger Level - [WARN]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [ERROR] c.a.board.BoardService.BoardService - Logger Level - [ERROR]
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] c.a.board.BoardService.BoardService - ===== ===== ===== logging.level.com.api.board - Logger Level ===== ===== =====
-2021-03-28 04:23:27 [http-nio-8090-exec-1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection opened. {executed in 162ms} 
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.new Connection returned 
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.getNetworkTimeout() returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.isValid(1) returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.getTransactionIsolation() returned 4
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT *
+2021-03-29 01:24:27 [HikariPool-1 housekeeper] [WARN ] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h36m14s691ms).
+2021-03-29 01:29:49 [HikariPool-1 housekeeper] [WARN ] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m22s121ms).
+2021-03-29 01:41:33 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 35. Connection closed. {executed in 4ms} 
+2021-03-29 01:41:33 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 35. Connection.close() returned 
+2021-03-29 01:41:33 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 41. Connection opened. {executed in 94ms} 
+2021-03-29 01:41:34 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 41. Connection.new Connection returned 
+2021-03-29 01:41:34 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 41. Connection.isReadOnly() returned false
+2021-03-29 01:41:34 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 41. Connection.getAutoCommit() returned true
+2021-03-29 01:41:45 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 38. Connection closed. {executed in 0ms} 
+2021-03-29 01:41:45 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 38. Connection.close() returned 
+2021-03-29 01:41:45 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 42. Connection opened. {executed in 5ms} 
+2021-03-29 01:41:45 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 42. Connection.new Connection returned 
+2021-03-29 01:41:45 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 42. Connection.isReadOnly() returned false
+2021-03-29 01:41:45 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 42. Connection.getAutoCommit() returned true
+2021-03-29 01:41:52 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 40. Connection closed. {executed in 1ms} 
+2021-03-29 01:41:52 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 40. Connection.close() returned 
+2021-03-29 01:41:52 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 43. Connection opened. {executed in 27ms} 
+2021-03-29 01:41:52 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 43. Connection.new Connection returned 
+2021-03-29 01:41:52 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 43. Connection.isReadOnly() returned false
+2021-03-29 01:41:52 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 43. Connection.getAutoCommit() returned true
+2021-03-29 01:42:04 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 39. Connection closed. {executed in 1ms} 
+2021-03-29 01:42:04 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 39. Connection.close() returned 
+2021-03-29 01:42:04 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 44. Connection opened. {executed in 4ms} 
+2021-03-29 01:42:04 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 44. Connection.new Connection returned 
+2021-03-29 01:42:04 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 44. Connection.isReadOnly() returned false
+2021-03-29 01:42:04 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 44. Connection.getAutoCommit() returned true
+2021-03-29 01:42:07 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 31. Connection closed. {executed in 0ms} 
+2021-03-29 01:42:07 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 31. Connection.close() returned 
+2021-03-29 01:42:07 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 45. Connection opened. {executed in 10ms} 
+2021-03-29 01:42:07 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 45. Connection.new Connection returned 
+2021-03-29 01:42:07 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 45. Connection.isReadOnly() returned false
+2021-03-29 01:42:07 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 45. Connection.getAutoCommit() returned true
+2021-03-29 01:42:08 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 36. Connection closed. {executed in 0ms} 
+2021-03-29 01:42:08 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 36. Connection.close() returned 
+2021-03-29 01:42:09 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 46. Connection opened. {executed in 4ms} 
+2021-03-29 01:42:09 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 46. Connection.new Connection returned 
+2021-03-29 01:42:09 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 46. Connection.isReadOnly() returned false
+2021-03-29 01:42:09 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 46. Connection.getAutoCommit() returned true
+2021-03-29 01:42:11 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 37. Connection closed. {executed in 0ms} 
+2021-03-29 01:42:11 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 37. Connection.close() returned 
+2021-03-29 01:42:11 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 47. Connection opened. {executed in 2ms} 
+2021-03-29 01:42:11 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 47. Connection.new Connection returned 
+2021-03-29 01:42:11 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 47. Connection.isReadOnly() returned false
+2021-03-29 01:42:11 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 47. Connection.getAutoCommit() returned true
+2021-03-29 01:42:12 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 34. Connection closed. {executed in 1ms} 
+2021-03-29 01:42:12 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 34. Connection.close() returned 
+2021-03-29 01:42:12 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 48. Connection opened. {executed in 6ms} 
+2021-03-29 01:42:12 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 48. Connection.new Connection returned 
+2021-03-29 01:42:12 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 48. Connection.isReadOnly() returned false
+2021-03-29 01:42:12 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 48. Connection.getAutoCommit() returned true
+2021-03-29 01:42:15 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 33. Connection closed. {executed in 0ms} 
+2021-03-29 01:42:15 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 33. Connection.close() returned 
+2021-03-29 01:42:15 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 49. Connection opened. {executed in 3ms} 
+2021-03-29 01:42:15 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 49. Connection.new Connection returned 
+2021-03-29 01:42:15 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 49. Connection.isReadOnly() returned false
+2021-03-29 01:42:15 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 49. Connection.getAutoCommit() returned true
+2021-03-29 01:42:16 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 32. Connection closed. {executed in 1ms} 
+2021-03-29 01:42:16 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 32. Connection.close() returned 
+2021-03-29 01:42:16 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 50. Connection opened. {executed in 4ms} 
+2021-03-29 01:42:16 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 50. Connection.new Connection returned 
+2021-03-29 01:42:16 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 50. Connection.isReadOnly() returned false
+2021-03-29 01:42:16 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 50. Connection.getAutoCommit() returned true
+2021-03-29 01:49:57 [RMI TCP Connection(2)-127.0.0.1] [INFO ] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-29 01:49:57 [RMI TCP Connection(2)-127.0.0.1] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-29 01:49:57 [RMI TCP Connection(2)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 41. Connection closed. {executed in 1ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 41. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 42. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 42. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 43. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 43. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 44. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 44. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 45. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 45. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 46. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 46. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 47. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 47. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 48. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 48. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 49. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 49. Connection.close() returned 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 50. Connection closed. {executed in 0ms} 
+2021-03-29 01:49:57 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 50. Connection.close() returned 
+2021-03-29 01:49:57 [RMI TCP Connection(2)-127.0.0.1] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-03-29 03:29:39 [main] [INFO ] com.api.board.mapper.BoardMapperTest - Starting BoardMapperTest using Java 1.8.0_271 on changmins-MacBook-Pro.local with PID 4115 (started by cm in /Users/cm/Desktop/Playground/Spring/Board/workspace/board)
+2021-03-29 03:29:39 [main] [INFO ] com.api.board.mapper.BoardMapperTest - The following profiles are active: local
+2021-03-29 03:29:40 [main] [DEBUG] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-03-29 03:29:40 [main] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-29 03:29:41 [main] [INFO ] com.api.board.mapper.BoardMapperTest - Started BoardMapperTest in 2.003 seconds (JVM running for 2.726)
+2021-03-29 03:29:41 [main] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection opened. {executed in 156ms} 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.new Connection returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getNetworkTimeout() returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.isValid(1) returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getTransactionIsolation() returned 4
+2021-03-29 03:29:41 [main] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT *
         FROM ( 
                 SELECT BOARD_SEQ 
                      , BOARD_RE_REF 
@@ -82,127 +117,127 @@
                      , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE  
                FROM BOARD.TB_BOARD
                ORDER BY BOARD_RE_REF DESC, BOARD_RE_SEQ ASC
-              ) T1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@230355aa
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. SELECT * FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER 
+              ) T1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@49f40c00
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. SELECT * FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER 
 , BOARD_SUBJECT , BOARD_CONTENT , BOARD_HITS , DEL_YN , INS_USER_ID , CAST( DATE_FORMAT( INS_DATE, 
 '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE , UPD_USER_ID , CAST( DATE_FORMAT( UPD_DATE, 
 '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE FROM BOARD.TB_BOARD ORDER BY BOARD_RE_REF DESC, 
-BOARD_RE_SEQ ASC ) T1  {executed in 8 ms}
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@419c2f09
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@1617c5cf - Field level information: 
-	com.mysql.cj.result.Field@506e250b[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SEQ,originalColumnName=BOARD_SEQ,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
-	com.mysql.cj.result.Field@352aca1b[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_REF,originalColumnName=BOARD_RE_REF,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
-	com.mysql.cj.result.Field@5450721[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_LEV,originalColumnName=BOARD_RE_LEV,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
-	com.mysql.cj.result.Field@2d5483fb[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_SEQ,originalColumnName=BOARD_RE_SEQ,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
-	com.mysql.cj.result.Field@cb3bd27[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_WRITER,originalColumnName=BOARD_WRITER,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@6faac4b8[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SUBJECT,originalColumnName=BOARD_SUBJECT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@42fbaa63[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_CONTENT,originalColumnName=BOARD_CONTENT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@4b39a29c[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_HITS,originalColumnName=BOARD_HITS,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
-	com.mysql.cj.result.Field@5a727459[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=DEL_YN,originalColumnName=DEL_YN,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@6344f4ab[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=INS_USER_ID,originalColumnName=INS_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@7cf3f212[dbName=null,tableName=T1,originalTableName=null,columnName=INS_DATE,originalColumnName=INS_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@7a588252[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=UPD_USER_ID,originalColumnName=UPD_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-	com.mysql.cj.result.Field@3341e1fc[dbName=null,tableName=T1,originalTableName=null,columnName=UPD_DATE,originalColumnName=UPD_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 1
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자1
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목1
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용1
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST01
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:01
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 2
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자2
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목2
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용2
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST02
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:02
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 3
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자3
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목3
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용3
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST03
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:03
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 4
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자4
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목4
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용4
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST04
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:04
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 5
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자5
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목5
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용5
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST05
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:05
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 
+BOARD_RE_SEQ ASC ) T1  {executed in 31 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@44af588b
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@58015e56 - Field level information: 
+	com.mysql.cj.result.Field@4d3c6593[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SEQ,originalColumnName=BOARD_SEQ,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@7426a448[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_REF,originalColumnName=BOARD_RE_REF,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@516462cc[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_LEV,originalColumnName=BOARD_RE_LEV,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@3456558[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_SEQ,originalColumnName=BOARD_RE_SEQ,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@2dfb885e[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_WRITER,originalColumnName=BOARD_WRITER,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@6cbe7d4d[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SUBJECT,originalColumnName=BOARD_SUBJECT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@1e3e1014[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_CONTENT,originalColumnName=BOARD_CONTENT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3679d92e[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_HITS,originalColumnName=BOARD_HITS,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@47b11ec7[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=DEL_YN,originalColumnName=DEL_YN,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@58fa5769[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=INS_USER_ID,originalColumnName=INS_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@36aa52d2[dbName=null,tableName=T1,originalTableName=null,columnName=INS_DATE,originalColumnName=INS_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@4ee25d80[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=UPD_USER_ID,originalColumnName=UPD_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@16a35bd[dbName=null,tableName=T1,originalTableName=null,columnName=UPD_DATE,originalColumnName=UPD_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST01
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:01
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST02
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:02
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST03
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:03
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST04
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:04
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST05
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:05
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 
 |----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
 |board_seq |board_re_ref |board_re_lev |board_re_seq |board_writer |board_subject |board_content |board_hits |del_yn |ins_user_id |ins_date            |upd_user_id |upd_date |
 |----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
@@ -213,46 +248,550 @@ BOARD_RE_SEQ ASC ) T1  {executed in 8 ms}
 |5         |0            |0            |0            |게시글 작성자5     |게시글 제목5       |게시글 내용5       |0          |N      |TEST05      |2021-03-28 02:27:05 |null        |null     |
 |----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
 
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@40f4c956
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
-2021-03-28 04:23:28 [http-nio-8090-exec-1] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection opened. {executed in 3ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection opened. {executed in 3ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection opened. {executed in 2ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection opened. {executed in 3ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection opened. {executed in 3ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection opened. {executed in 2ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection opened. {executed in 2ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection opened. {executed in 3ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection.getAutoCommit() returned true
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection opened. {executed in 3ms} 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection.new Connection returned 
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection.isReadOnly() returned false
-2021-03-28 04:23:28 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@765d55d5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT T1.*
+          FROM (
+                    SELECT BOARD_SEQ 
+                         , BOARD_RE_REF 
+                          , BOARD_RE_LEV 
+                          , BOARD_RE_SEQ 
+                          , BOARD_WRITER 
+                          , BOARD_SUBJECT 
+                          , BOARD_CONTENT 
+                          , BOARD_HITS
+                          , DEL_YN 
+                          , INS_USER_ID
+                          , CAST( DATE_FORMAT( INS_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE
+                          , UPD_USER_ID
+                          , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE  
+                        FROM BOARD.TB_BOARD
+                      WHERE BOARD_SEQ = ?        
+                ) T1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6848a051
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setInt(1, 1) returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection opened. {executed in 3ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 2. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection opened. {executed in 3ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 3. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. SELECT T1.* FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER 
+, BOARD_SUBJECT , BOARD_CONTENT , BOARD_HITS , DEL_YN , INS_USER_ID , CAST( DATE_FORMAT( INS_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE , UPD_USER_ID , CAST( DATE_FORMAT( UPD_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE FROM BOARD.TB_BOARD WHERE BOARD_SEQ = 1 ) T1  {executed in 6 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@149b0577
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@5740ff5e - Field level information: 
+	com.mysql.cj.result.Field@4a901445[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SEQ,originalColumnName=BOARD_SEQ,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@67f77f6e[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_REF,originalColumnName=BOARD_RE_REF,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@2b0b7e5a[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_LEV,originalColumnName=BOARD_RE_LEV,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@7be1ce6a[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_SEQ,originalColumnName=BOARD_RE_SEQ,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@3119cf6f[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_WRITER,originalColumnName=BOARD_WRITER,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@6dc9da2d[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SUBJECT,originalColumnName=BOARD_SUBJECT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@1d408060[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_CONTENT,originalColumnName=BOARD_CONTENT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@68a78f3c[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_HITS,originalColumnName=BOARD_HITS,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@17ba57f0[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=DEL_YN,originalColumnName=DEL_YN,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3481ff98[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=INS_USER_ID,originalColumnName=INS_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@2ddb3ae8[dbName=null,tableName=T1,originalTableName=null,columnName=INS_DATE,originalColumnName=INS_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@79518e00[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=UPD_USER_ID,originalColumnName=UPD_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3c91530d[dbName=null,tableName=T1,originalTableName=null,columnName=UPD_DATE,originalColumnName=UPD_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용1
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection opened. {executed in 3ms} 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection.new Connection returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST01
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:01
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 4. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
+|board_seq |board_re_ref |board_re_lev |board_re_seq |board_writer |board_subject |board_content |board_hits |del_yn |ins_user_id |ins_date            |upd_user_id |upd_date |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
+|1         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-03-28 02:27:01 |null        |null     |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|---------|
+
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@732f6050
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection opened. {executed in 3ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 5. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection opened. {executed in 3ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 6. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(INSERT 
+        INTO BOARD.TB_BOARD 
+        (
+                BOARD_RE_REF
+              , BOARD_RE_LEV
+              , BOARD_RE_SEQ
+              , BOARD_WRITER
+              , BOARD_SUBJECT
+              , BOARD_CONTENT
+              , INS_USER_ID
+              , INS_DATE
+              , UPD_USER_ID
+              , UPD_DATE
+        ) 
+        VALUES 
+        (
+              0
+            , 0
+            , 0
+            , ?
+            , ?
+            , ?
+            , 'TEST'
+            , NOW() 
+            , 'TEST'
+            , NOW() 
+        )) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@6fbc1bb
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setString(1, "게시글 작성자6") returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setString(2, "게시글 제목6") returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setString(3, "게시글 제목6") returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection opened. {executed in 4ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 7. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection opened. {executed in 3ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 8. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection opened. {executed in 2ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 9. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection opened. {executed in 4ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection.new Connection returned 
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection.isReadOnly() returned false
+2021-03-29 03:29:41 [HikariPool-1 connection adder] [INFO ] log4jdbc.log4j2 - 10. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. INSERT INTO BOARD.TB_BOARD ( BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER , BOARD_SUBJECT 
+, BOARD_CONTENT , INS_USER_ID , INS_DATE , UPD_USER_ID , UPD_DATE ) VALUES ( 0 , 0 , 0 , '게시글 
+작성자6' , '게시글 제목6' , '게시글 제목6' , 'TEST' , NOW() , 'TEST' , NOW() )  {executed in 53 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned 1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT LAST_INSERT_ID()) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@30c4e352
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. SELECT LAST_INSERT_ID()  {executed in 2 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@f1dd5b4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@73809e7 - Field level information: 
+	com.mysql.cj.result.Field@5f96f6a2[dbName=null,tableName=null,originalTableName=null,columnName=LAST_INSERT_ID(),originalColumnName=null,mysqlType=8(FIELD_TYPE_BIGINT UNSIGNED),sqlType=-5,flags= BINARY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(LAST_INSERT_ID()) returned 6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 
+|-----------------|
+|last_insert_id() |
+|-----------------|
+|6                |
+|-----------------|
+
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@71f1cc02
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT *
+        FROM ( 
+                SELECT BOARD_SEQ 
+                     , BOARD_RE_REF 
+                     , BOARD_RE_LEV 
+                     , BOARD_RE_SEQ 
+                     , BOARD_WRITER 
+                     , BOARD_SUBJECT 
+                     , BOARD_CONTENT 
+                     , BOARD_HITS
+                     , DEL_YN 
+                     , INS_USER_ID
+                     , CAST( DATE_FORMAT( INS_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE
+                     , UPD_USER_ID
+                     , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE  
+               FROM BOARD.TB_BOARD
+               ORDER BY BOARD_RE_REF DESC, BOARD_RE_SEQ ASC
+              ) T1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@33feb805
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. SELECT * FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER 
+, BOARD_SUBJECT , BOARD_CONTENT , BOARD_HITS , DEL_YN , INS_USER_ID , CAST( DATE_FORMAT( INS_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE , UPD_USER_ID , CAST( DATE_FORMAT( UPD_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE FROM BOARD.TB_BOARD ORDER BY BOARD_RE_REF DESC, 
+BOARD_RE_SEQ ASC ) T1  {executed in 1 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@37854b34
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@48eb001a - Field level information: 
+	com.mysql.cj.result.Field@34332b8d[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SEQ,originalColumnName=BOARD_SEQ,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@724b939e[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_REF,originalColumnName=BOARD_RE_REF,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@6f8aba08[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_LEV,originalColumnName=BOARD_RE_LEV,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@7ff19c33[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_SEQ,originalColumnName=BOARD_RE_SEQ,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@52b3bf03[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_WRITER,originalColumnName=BOARD_WRITER,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@7cca01a8[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SUBJECT,originalColumnName=BOARD_SUBJECT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@462abec3[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_CONTENT,originalColumnName=BOARD_CONTENT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@35c9a231[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_HITS,originalColumnName=BOARD_HITS,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@7a4d582c[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=DEL_YN,originalColumnName=DEL_YN,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@5626d18c[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=INS_USER_ID,originalColumnName=INS_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@45e9b12d[dbName=null,tableName=T1,originalTableName=null,columnName=INS_DATE,originalColumnName=INS_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3dc95b8b[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=UPD_USER_ID,originalColumnName=UPD_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@2d55e826[dbName=null,tableName=T1,originalTableName=null,columnName=UPD_DATE,originalColumnName=UPD_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST01
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:01
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용2
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST02
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:02
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST03
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:03
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용4
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST04
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:04
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 내용5
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST05
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-28 02:27:05
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 제목6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-29 03:29:41
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned TEST
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned 2021-03-29 03:29:41
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|--------------------|
+|board_seq |board_re_ref |board_re_lev |board_re_seq |board_writer |board_subject |board_content |board_hits |del_yn |ins_user_id |ins_date            |upd_user_id |upd_date            |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|--------------------|
+|1         |0            |0            |0            |게시글 작성자1     |게시글 제목1       |게시글 내용1       |0          |N      |TEST01      |2021-03-28 02:27:01 |null        |null                |
+|2         |0            |0            |0            |게시글 작성자2     |게시글 제목2       |게시글 내용2       |0          |N      |TEST02      |2021-03-28 02:27:02 |null        |null                |
+|3         |0            |0            |0            |게시글 작성자3     |게시글 제목3       |게시글 내용3       |0          |N      |TEST03      |2021-03-28 02:27:03 |null        |null                |
+|4         |0            |0            |0            |게시글 작성자4     |게시글 제목4       |게시글 내용4       |0          |N      |TEST04      |2021-03-28 02:27:04 |null        |null                |
+|5         |0            |0            |0            |게시글 작성자5     |게시글 제목5       |게시글 내용5       |0          |N      |TEST05      |2021-03-28 02:27:05 |null        |null                |
+|6         |0            |0            |0            |게시글 작성자6     |게시글 제목6       |게시글 제목6       |0          |N      |TEST        |2021-03-29 03:29:41 |TEST        |2021-03-29 03:29:41 |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|--------------------|
+
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@45f756e6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(UPDATE BOARD.TB_BOARD 
+           SET BOARD_SUBJECT = ?
+             , BOARD_CONTENT = ?
+             , UPD_USER_ID = 'TEST'
+             , UPD_DATE = NOW()
+         WHERE BOARD_SEQ = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@329548d0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setString(1, "게시글 제목7") returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setString(2, "게시글 제목7") returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setInt(3, 6) returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. UPDATE BOARD.TB_BOARD SET BOARD_SUBJECT = '게시글 제목7' , BOARD_CONTENT = '게시글 제목7' , UPD_USER_ID 
+= 'TEST' , UPD_DATE = NOW() WHERE BOARD_SEQ = 6  {executed in 10 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned 1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT T1.*
+          FROM (
+                    SELECT BOARD_SEQ 
+                         , BOARD_RE_REF 
+                          , BOARD_RE_LEV 
+                          , BOARD_RE_SEQ 
+                          , BOARD_WRITER 
+                          , BOARD_SUBJECT 
+                          , BOARD_CONTENT 
+                          , BOARD_HITS
+                          , DEL_YN 
+                          , INS_USER_ID
+                          , CAST( DATE_FORMAT( INS_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE
+                          , UPD_USER_ID
+                          , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE  
+                        FROM BOARD.TB_BOARD
+                      WHERE BOARD_SEQ = ?        
+                ) T1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@29b40b3
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setInt(1, 6) returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. SELECT T1.* FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER 
+, BOARD_SUBJECT , BOARD_CONTENT , BOARD_HITS , DEL_YN , INS_USER_ID , CAST( DATE_FORMAT( INS_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE , UPD_USER_ID , CAST( DATE_FORMAT( UPD_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE FROM BOARD.TB_BOARD WHERE BOARD_SEQ = 6 ) T1  {executed in 1 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@7d247660
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@656f62dc - Field level information: 
+	com.mysql.cj.result.Field@49d30c6f[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SEQ,originalColumnName=BOARD_SEQ,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@1115433e[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_REF,originalColumnName=BOARD_RE_REF,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@4fdca00a[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_LEV,originalColumnName=BOARD_RE_LEV,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@513b52af[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_SEQ,originalColumnName=BOARD_RE_SEQ,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@5a8c93[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_WRITER,originalColumnName=BOARD_WRITER,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3bed3315[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SUBJECT,originalColumnName=BOARD_SUBJECT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@119b0892[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_CONTENT,originalColumnName=BOARD_CONTENT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@1a3e8e24[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_HITS,originalColumnName=BOARD_HITS,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@4ed4a7e4[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=DEL_YN,originalColumnName=DEL_YN,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@1c7350b0[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=INS_USER_ID,originalColumnName=INS_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@55651434[dbName=null,tableName=T1,originalTableName=null,columnName=INS_DATE,originalColumnName=INS_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3bc4ef12[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=UPD_USER_ID,originalColumnName=UPD_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@50448409[dbName=null,tableName=T1,originalTableName=null,columnName=UPD_DATE,originalColumnName=UPD_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_SEQ) returned 6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_REF) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_LEV) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_RE_SEQ) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_WRITER) returned 게시글 작성자6
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_SUBJECT) returned 게시글 제목7
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(BOARD_CONTENT) returned 게시글 제목7
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getInt(BOARD_HITS) returned 0
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.wasNull() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(DEL_YN) returned N
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_USER_ID) returned TEST
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(INS_DATE) returned 2021-03-29 03:29:41
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_USER_ID) returned TEST
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getString(UPD_DATE) returned 2021-03-29 03:29:41
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|--------------------|
+|board_seq |board_re_ref |board_re_lev |board_re_seq |board_writer |board_subject |board_content |board_hits |del_yn |ins_user_id |ins_date            |upd_user_id |upd_date            |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|--------------------|
+|6         |0            |0            |0            |게시글 작성자6     |게시글 제목7       |게시글 제목7       |0          |N      |TEST        |2021-03-29 03:29:41 |TEST        |2021-03-29 03:29:41 |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|--------------------|------------|--------------------|
+
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@2b0dc227
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(DELETE 
+          FROM BOARD.TB_BOARD 
+         WHERE BOARD_SEQ = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@37ad042b
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setInt(1, 6) returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. DELETE FROM BOARD.TB_BOARD WHERE BOARD_SEQ = 6  {executed in 5 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned 1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getAutoCommit() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.new PreparedStatement returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.prepareStatement(SELECT T1.*
+          FROM (
+                    SELECT BOARD_SEQ 
+                         , BOARD_RE_REF 
+                          , BOARD_RE_LEV 
+                          , BOARD_RE_SEQ 
+                          , BOARD_WRITER 
+                          , BOARD_SUBJECT 
+                          , BOARD_CONTENT 
+                          , BOARD_HITS
+                          , DEL_YN 
+                          , INS_USER_ID
+                          , CAST( DATE_FORMAT( INS_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE
+                          , UPD_USER_ID
+                          , CAST( DATE_FORMAT( UPD_DATE, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE  
+                        FROM BOARD.TB_BOARD
+                      WHERE BOARD_SEQ = ?        
+                ) T1) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@30b975ad
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.setInt(1, 6) returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. SELECT T1.* FROM ( SELECT BOARD_SEQ , BOARD_RE_REF , BOARD_RE_LEV , BOARD_RE_SEQ , BOARD_WRITER 
+, BOARD_SUBJECT , BOARD_CONTENT , BOARD_HITS , DEL_YN , INS_USER_ID , CAST( DATE_FORMAT( INS_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS INS_DATE , UPD_USER_ID , CAST( DATE_FORMAT( UPD_DATE, 
+'%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS UPD_DATE FROM BOARD.TB_BOARD WHERE BOARD_SEQ = 6 ) T1  {executed in 0 ms}
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.execute() returned true
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.new ResultSet returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@75e09567
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getMetaData() returned com.mysql.cj.jdbc.result.ResultSetMetaData@2a334bac - Field level information: 
+	com.mysql.cj.result.Field@470d183[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SEQ,originalColumnName=BOARD_SEQ,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= AUTO_INCREMENT PRIMARY_KEY UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@7f9fc8bd[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_REF,originalColumnName=BOARD_RE_REF,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@ea52184[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_LEV,originalColumnName=BOARD_RE_LEV,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@3e7b65d7[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_RE_SEQ,originalColumnName=BOARD_RE_SEQ,mysqlType=3(FIELD_TYPE_INT),sqlType=4,flags=, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@3c854752[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_WRITER,originalColumnName=BOARD_WRITER,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3ddeaa5f[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_SUBJECT,originalColumnName=BOARD_SUBJECT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@1a500561[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_CONTENT,originalColumnName=BOARD_CONTENT,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@7f608e21[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=BOARD_HITS,originalColumnName=BOARD_HITS,mysqlType=3(FIELD_TYPE_INT UNSIGNED),sqlType=4,flags= UNSIGNED, charsetIndex=63, charsetName=ISO-8859-1]
+	com.mysql.cj.result.Field@6949e948[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=DEL_YN,originalColumnName=DEL_YN,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@210d2a6c[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=INS_USER_ID,originalColumnName=INS_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@3bec5821[dbName=null,tableName=T1,originalTableName=null,columnName=INS_DATE,originalColumnName=INS_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@4086d8fb[dbName=board,tableName=T1,originalTableName=TB_BOARD,columnName=UPD_USER_ID,originalColumnName=UPD_USER_ID,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+	com.mysql.cj.result.Field@66236a0a[dbName=null,tableName=T1,originalTableName=null,columnName=UPD_DATE,originalColumnName=UPD_DATE,mysqlType=253(FIELD_TYPE_VARCHAR),sqlType=12,flags=, charsetIndex=255, charsetName=UTF-8]
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.getType() returned 1003
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.isClosed() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|---------|------------|---------|
+|board_seq |board_re_ref |board_re_lev |board_re_seq |board_writer |board_subject |board_content |board_hits |del_yn |ins_user_id |ins_date |upd_user_id |upd_date |
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|---------|------------|---------|
+|----------|-------------|-------------|-------------|-------------|--------------|--------------|-----------|-------|------------|---------|------------|---------|
+
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.next() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. ResultSet.close() returned void
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.getMetaData() returned com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema@77c10a5f
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getMoreResults() returned false
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.getUpdateCount() returned -1
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. PreparedStatement.close() returned 
+2021-03-29 03:29:41 [main] [INFO ] log4jdbc.log4j2 - 1. Connection.clearWarnings() returned 
+2021-03-29 03:29:41 [SpringContextShutdownHook] [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-29 03:29:41 [SpringContextShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 1. Connection closed. {executed in 6ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 1. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 2. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 2. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 3. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 3. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 4. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 4. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 5. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 5. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 6. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 6. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 7. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 7. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 8. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 8. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 9. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 9. Connection.close() returned 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 10. Connection closed. {executed in 0ms} 
+2021-03-29 03:29:41 [HikariPool-1 connection closer] [INFO ] log4jdbc.log4j2 - 10. Connection.close() returned 
+2021-03-29 03:29:41 [SpringContextShutdownHook] [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

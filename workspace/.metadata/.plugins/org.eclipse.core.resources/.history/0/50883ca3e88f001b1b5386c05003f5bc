@@ -6,8 +6,4 @@ import com.api.board.domain.Board;
 
 public interface BoardMapper {
 	public List<Board> getBoardList() throws Exception;
-	public Board getBoardDetail(int board_seg);
-	public int insertBoard(Board board);
-	public int updateBoard(Board board);
-	public int deleteBoard(int board_seq);
 }
