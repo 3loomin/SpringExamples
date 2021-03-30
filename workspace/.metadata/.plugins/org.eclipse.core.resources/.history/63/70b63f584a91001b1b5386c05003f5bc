@@ -1,0 +1,2 @@
+log.config.path= ~/Desktop/Playground/spring/Board
+log.config.filename=local_log
