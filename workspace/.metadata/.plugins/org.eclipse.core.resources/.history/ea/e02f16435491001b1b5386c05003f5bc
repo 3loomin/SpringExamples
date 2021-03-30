@@ -1,0 +1,5 @@
+package com.api.board.service;
+
+public class BoardServiceImpl {
+
+}
